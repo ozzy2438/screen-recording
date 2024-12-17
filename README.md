@@ -1,19 +1,19 @@
-# Ekran Kaydedici Web Uygulaması
+# Screen Recording Web Application
 
-Bu proje, modern web teknolojileri kullanılarak geliştirilmiş basit ve kullanışlı bir ekran kaydetme uygulamasıdır.
+A simple and practical screen recording application developed using modern web technologies.
 
-## Özellikler
+## Features
 
-- Ekran/pencere/sekme paylaşımı
-- Sistem sesi kaydı
-- Mikrofon sesi kaydı
-- Kayıt kontrolleri (Başlat/Duraklat/Durdur)
-- Kayıt zamanlayıcısı
-- Canlı önizleme
-- WebM ve MP4 formatlarında kayıt
-- Anında indirme seçeneği
+- Screen/window/tab sharing
+- System audio recording
+- Microphone audio recording
+- Recording controls (Start/Pause/Stop)
+- Recording timer
+- Live preview
+- WebM and MP4 format support
+- Instant download option
 
-## Teknolojiler
+## Technologies
 
 - HTML5
 - CSS3
@@ -22,28 +22,28 @@ Bu proje, modern web teknolojileri kullanılarak geliştirilmiş basit ve kullan
 - MediaRecorder API
 - getUserMedia API
 
-## Kurulum
+## Installation
 
-1. Projeyi klonlayın veya indirin
-2. Dosyaları bir web sunucusuna yükleyin
-3. `index.html` dosyasını bir web tarayıcısında açın
+1. Clone or download the project
+2. Upload files to a web server
+3. Open `index.html` in a web browser
 
-## Kullanım
+## Usage
 
-1. "Kaydı Başlat" butonuna tıklayın
-2. Kaydetmek istediğiniz ekranı, pencereyi veya sekmeyi seçin
-3. Sistem sesi ve mikrofon ayarlarını yapın
-4. Kaydı durdurmak için "Durdur" butonuna tıklayın
-5. Kaydedilen videoyu önizleyin ve indirin
+1. Click the "Start Recording" button
+2. Select the screen, window, or tab you want to record
+3. Configure system audio and microphone settings
+4. Click "Stop" to end recording
+5. Preview and download the recorded video
 
-## Tarayıcı Desteği
+## Browser Support
 
-Bu uygulama aşağıdaki modern tarayıcılarda test edilmiştir:
+This application has been tested on the following modern browsers:
 
-- Google Chrome (son sürüm)
-- Mozilla Firefox (son sürüm)
-- Microsoft Edge (son sürüm)
+- Google Chrome (latest version)
+- Mozilla Firefox (latest version)
+- Microsoft Edge (latest version)
 
-## Lisans
+## License
 
-Bu proje MIT lisansı altında lisanslanmıştır.
+This project is licensed under the MIT License.
