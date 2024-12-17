@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ekran Kaydedici</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Ekran Kaydedici</h1>
+        
+        <div class="control-panel">
+            <div class="settings">
+                <h3>Kayıt Ayarları</h3>
+                <div class="setting-item">
+                    <label>
+                        <input type="checkbox" id="includeAudio" checked>
+                        Sistem Sesi
+                    </label>
+                </div>
+                <div class="setting-item">
+                    <label>
+                        <input type="checkbox" id="includeMic" checked>
+                        Mikrofon
+                    </label>
+                </div>
+            </div>
+
+            <div class="record-controls">
+                <button id="startBtn" class="primary-btn">Kaydı Başlat</button>
+                <button id="pauseBtn" class="secondary-btn" disabled>Duraklat</button>
+                <button id="stopBtn" class="secondary-btn" disabled>Durdur</button>
+            </div>
+
+            <div class="timer" id="timer">00:00:00</div>
+        </div>
+
+        <div class="preview-container">
+            <video id="preview" autoplay muted></video>
+        </div>
+
+        <div class="recorded-video-container" style="display: none;">
+            <h3>Kaydedilen Video</h3>
+            <video id="recordedVideo" controls></video>
+            <div class="video-controls">
+                <button id="downloadBtn" class="primary-btn">İndir</button>
+                <select id="formatSelect">
+                    <option value="webm">WebM</option>
+                    <option value="mp4">MP4</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html> 
