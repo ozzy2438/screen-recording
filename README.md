@@ -46,4 +46,4 @@ Bu uygulama aşağıdaki modern tarayıcılarda test edilmiştir:
 
 ## Lisans
 
-Bu proje MIT lisansı altında lisanslanmıştır. 
+Bu proje MIT lisansı altında lisanslanmıştır.
